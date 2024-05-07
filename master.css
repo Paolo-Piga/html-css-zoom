@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,main{
+    background-color: black;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    z-index: 1000px;
+    position: fixed;
+    
+}
+footer{
+    background-color: grey;
+    height: 100px;
+}
+#grid, #maximize{
+    display: flex;
+    float: right;
+    color: white;
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 2px solid grey;
+    padding: 3px 2px;
+    color: white;
+}
+
+#grid{
+    margin-right: 5px;
+    
+}
+
+#maximize{
+    margin-right: 2px;
+    margin-left: 2px;
+    
+}
+
+
+
+.fa-solid-fa-table-cells, .fa-solid-fa-maximize{
+    color: white;
+    font-size: 5px;
+}
+
+#containerphoto{
+    margin: 200px 0px;
+    min-height: 300px;
+    width: 100%;
+}
+
+.person{
+    src: url();
+}
